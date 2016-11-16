@@ -1,0 +1,26 @@
+{
+  "name": "shopware-eslint",
+  "version": "1.0.0",
+  "description": "Opinionated js eslint-config for shopware 5 projects",
+  "keywords": [
+    "shopware",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/screeny05/shopware-eslint.git"
+  },
+  "author": "Sebastian Langer <screeny05@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/screeny05/shopware-eslint/issues"
+  },
+  "homepage": "https://github.com/screeny05/shopware-eslint#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
