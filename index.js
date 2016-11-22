@@ -22,8 +22,23 @@ module.exports = {
             before: true,
             after: false,
             overrides: {
-                else: { after: true }
+                else: { after: true },
+                from: { after: true }
             }
-        }]
+        }],
+        'no-underscore-dangle': 0,
+        'arrow-parens': ['error', 'as-needed'],
+        'import/extensions': 0,
+        'import/no-extraneous-dependencies': 0
+    },
+    settings: {
+        'import/resolver': {
+            webpack: {
+                config: 'webpack.config.js'
+            }
+        },
+        'import/ignore': [
+            /^shopware\//
+        ]
     }
 };

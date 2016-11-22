@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shopware",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Opinionated js eslint-config for shopware 5 projects",
   "keywords": [
     "shopware",
@@ -21,7 +21,8 @@
   "homepage": "https://github.com/screeny05/shopware-eslint#readme",
   "dependencies": {
     "eslint-config-airbnb-base": "^10.0.1",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-import-resolver-webpack": "^0.7.0"
   },
   "peerDependencies": {
     "babel-eslint": "^7.1.0",
